@@ -10,6 +10,8 @@
 
 找到 `fetch?presentation_id=...` 请求，查看请求标头。先将 `:path` 字段中 `presentation_id=` 之后的内容复制到 `config.json` 文件的对应位置，再将 `authorization` 字段的全部内容复制到 `config.json` 文件的对应位置，最后将 `cookie` 字段中从 `sessionid=` 到最近的分号前的内容复制到 `config.json` 文件的 `sessionid` 项中。
 
+![config](img.jpg)
+
 ### 2. 运行程序
 
 确保安装所有依赖后运行该程序。
